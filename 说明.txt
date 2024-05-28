@@ -1,0 +1,35 @@
+API:
+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
+
+
+通过文本：
+```
+    git clone https://github.com/lllyasviel/IC-Light.git
+    cd IC-Light
+    conda create -n iclight python=3.10
+    conda activate iclight
+    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+    pip install -r requirements.txt
+    python gradio_demo.py
+```
+
+通过背景:
+```
+    python gradio_demo_bg.py
+```
+
+在线使用gradio_demo.py：
+[huggingFace Space here](https://huggingface.co/spaces/lllyasviel/IC-Light).
+
+
+
+D:\Master File\ANACONDA\envs\iclight\lib\site-packages\huggingface_hub\file_download.py:1132: 
+FutureWarning: `resume_download`已弃用，并将在版本1.0.0中删除。下载时始终会恢复。如果要强制进行新的下载，请使用`force_download=True`。
+  warnings.warn(
+在本地运行的URL：http://0.0.0.0:7860
+重要提示：您正在使用的是Gradio 3.41.2版本，但有可用的4.29.0版本，请进行升级。
+--------
+在公共URL上运行：https://8075f4312be300cb61.gradio.live
+
+
+这个共享链接将在72小时后失效。免费的永久主机和GPU升级，运行'gradio deploy'从终端部署到空间（https://huggingface.co/spaces)
